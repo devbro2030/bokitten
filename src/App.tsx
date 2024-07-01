@@ -45,13 +45,13 @@ function App() {
         <MainImage/>
         <div className='caBtn' ref={caRef}>
           <p className="intro" id='ca'>CA: xxxxxxxxxxxxxxxxxxxx 
-            {
+            {/* {
               copyDone
               ? <DoneIcon/>
               :<button onClick={handleCopy('xxxxxxxxxxxxxxxxxxxx')}><ContentCopyIcon/></button>
-            }
+            } */}
             </p>
-          {/* <p className="intro" id='ca'>CA: to be updated soon</p> */}
+          <p className="intro" id='ca'>CA: to be updated soon</p>
         </div>
         <div className="heading" style={{marginBottom:'10px',marginTop:'20px'}} ref={galleryRef}>Bo's gallery:</div>
         <div className='sliderBox'>
