@@ -1,38 +1,348 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  position: relative;
+  min-width: 100vw;
   min-height: 100vh;
+}
+
+header {
+  height: 80px;
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.navigation {
+  display: flex;
+  width: 45%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation-item {
+  text-transform: uppercase;
+  font-family: "Jura", sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.navigation-item:hover {
+  color:grey;
+  cursor: pointer;
+}
+
+.navigation-item a{
+  text-decoration: none;
+  color:black
+}
+
+.navigation-item a:hover {
+  color:grey;
+  cursor: pointer;
+}
+
+main {
+  position: relative;
+}
+
+.caBtn {
+  width: 60%;
+  height: 80px;
+  margin: 0 auto;
+  border: 5px solid black;
+  border-radius: 50px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#ca button {
+  all:unset
+}
+
+#ca button:hover{
+  cursor: pointer;
+}
+
+.intro {
+  text-align: center;
+  font-size: 48px;
+}
+
+.intro span {
+  color:blue;
+  text-decoration:underline;
+}
+
+.heading {
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Jura", sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.image {
+  width: 300px;
+  height: 400px;
+  background: url('../public/bo.png') no-repeat center center;
+  background-size: cover;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+.marq-one {
+  height: 50px;
+  background-color: black;
+  color: white;
+  font-size: 24px;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  font-size: 48px;
+  z-index: 9;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.sliderBox {
+  width:80%;
+  margin: 0 auto;
+  padding:20px;
+}
+
+.sliderBox button {
+  all:unset;
+  height: 50px;
+  width: 50px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.sliderBox button:hover {
+  cursor: pointer;
+  border: 2px solid grey;
+}
+
+button[data-direction="left"]::after {
+  content: 'prev';
+  position: absolute;
+  color: black;
+  top: 46%;
+  left: 1.8%;
+}
+
+button[data-direction="right"]::after {
+  content: 'next';
+  position: absolute;
+  color: black;
+  top: 46%;
+  right: 1.8%;
+}
+
+div[data-testid="carousel"] {
+  display: flex;
+  align-items: center;
+}
+
+div[data-testid="trackList"] div{
+  margin-right: 5px;
+}
+
+.memeBox {
+  width:100%; 
+  height:300px;
+}
+
+.one {
+background: url('../public/bo/1.png') no-repeat center center;
+  background-size: cover;
+}
+
+.two {
+  background: url('../public/bo/2.png') no-repeat center center;
+    background-size: cover;
+}
+
+.three {
+background: url('../public/bo/3.png') no-repeat center center;
+background-size: cover;
+}
+
+.four {
+background: url('../public/bo/4.png') no-repeat center center;
+  background-size: cover;
+}
+
+.five {
+background: url('../public/bo/5.png') no-repeat center center;
+  background-size: cover;
+}
+
+.six {
+background: url('../public/bo/6.png') no-repeat center center;
+  background-size: cover;
+}
+
+.seven {
+background: url('../public/bo/7.png') no-repeat center center;
+  background-size: cover;
+}
+
+.eight {
+background: url('../public/bo/8.png') no-repeat center center;
+  background-size: cover;
+}
+
+.nine {
+background: url('../public/bo/9.png') no-repeat center center;
+  background-size: cover;
+}
+
+.ten {
+background: url('../public/bo/10.png') no-repeat center center;
+  background-size: cover;
+}
+
+.eleven {
+background: url('../public/bo/11.png') no-repeat center center;
+  background-size: cover;
+}
+
+.buy-info {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  gap:20px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  margin-top: 20px;
+}
+
+.item {
+  width: 50%;
+  min-height: 50px;
+  padding-left: 15px;
+}
+
+.itemText {
+  font-size: 36px;
+}
+
+.itemText a{
+  color: purple;
+  text-decoration: underline;
+} 
+
+.itemText a:hover{
+  cursor: pointer;
+  color:gray
+} 
+
+.itemTextCA {
+  color: purple;
+  text-decoration: underline;
+}
+
+.itemTextCA:hover {
+  cursor: pointer;
+  color:gray
+}
+
+.footer {
+  height: 100px;
+  background-color: black;
   color: white;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 767px) {
+  .svg {
+    display: none;
   }
-  to {
-    transform: rotate(360deg);
+  button[data-direction="left"] {
+    display: none !important;
+  }
+  button[data-direction="right"] {
+    display: none !important;
+  }
+  header {
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  h1 {
+    margin: 0;
+    padding: 0;
+  }
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+  }
+  .navigation-item {
+    text-transform: uppercase;
+    font-family: "Jura", sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  .caBtn {
+    width: 80%;
+    font-size: 20px;
+  }
+  .caBtn .intro {
+    font-size: 24px;
+  }
+
+  .item {
+    width: 80%;
+    min-height: 50px;
+    padding-left: 15px;
+  }
+  
+  .itemText {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .svg {
+    display: none;
+  }
+  button[data-direction="left"] {
+    display: none !important;
+  }
+  
+  button[data-direction="right"] {
+    display: none !important;
+  }
+
+  .navigation-item {
+    text-transform: uppercase;
+    font-family: "Jura", sans-serif;
+    font-weight: bold;
+    font-size: 0.75rem;
   }
 }
