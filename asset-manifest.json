@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "//www.bokitten.xyz/static/css/main.ec43db14.css",
-    "main.js": "//www.bokitten.xyz/static/js/main.7d858009.js",
-    "static/media/2.png": "//www.bokitten.xyz/static/media/2.4f45fd980e2bb678c777.png",
-    "static/media/6.png": "//www.bokitten.xyz/static/media/6.e5c43736c3a78221b2de.png",
-    "static/media/9.png": "//www.bokitten.xyz/static/media/9.f5898cea881fda78d882.png",
-    "static/media/11.png": "//www.bokitten.xyz/static/media/11.3f00557f067f3ca93972.png",
-    "static/media/8.png": "//www.bokitten.xyz/static/media/8.24c287020404e7abb1b4.png",
-    "static/media/3.png": "//www.bokitten.xyz/static/media/3.8fba80b49c06d7b0ff10.png",
-    "static/media/5.png": "//www.bokitten.xyz/static/media/5.14127d341ea3c95e531d.png",
-    "static/media/7.png": "//www.bokitten.xyz/static/media/7.769a29b443494d74e968.png",
-    "static/media/10.png": "//www.bokitten.xyz/static/media/10.3f6f1f6f6411a54b8c12.png",
-    "static/media/bo.png": "//www.bokitten.xyz/static/media/bo.73a91d72096aa3109e76.png",
-    "static/media/4.png": "//www.bokitten.xyz/static/media/4.da6b5203cf903445e38e.png",
-    "static/media/1.png": "//www.bokitten.xyz/static/media/1.834c93168600474b1906.png",
-    "index.html": "//www.bokitten.xyz/index.html",
-    "main.ec43db14.css.map": "//www.bokitten.xyz/static/css/main.ec43db14.css.map",
-    "main.7d858009.js.map": "//www.bokitten.xyz/static/js/main.7d858009.js.map"
+    "main.css": "/static/css/main.5b1c42e2.css",
+    "main.js": "/static/js/main.7d858009.js",
+    "static/media/2.png": "/static/media/2.4f45fd980e2bb678c777.png",
+    "static/media/6.png": "/static/media/6.e5c43736c3a78221b2de.png",
+    "static/media/9.png": "/static/media/9.f5898cea881fda78d882.png",
+    "static/media/11.png": "/static/media/11.3f00557f067f3ca93972.png",
+    "static/media/8.png": "/static/media/8.24c287020404e7abb1b4.png",
+    "static/media/3.png": "/static/media/3.8fba80b49c06d7b0ff10.png",
+    "static/media/5.png": "/static/media/5.14127d341ea3c95e531d.png",
+    "static/media/7.png": "/static/media/7.769a29b443494d74e968.png",
+    "static/media/10.png": "/static/media/10.3f6f1f6f6411a54b8c12.png",
+    "static/media/bo.png": "/static/media/bo.73a91d72096aa3109e76.png",
+    "static/media/4.png": "/static/media/4.da6b5203cf903445e38e.png",
+    "static/media/1.png": "/static/media/1.834c93168600474b1906.png",
+    "index.html": "/index.html",
+    "main.5b1c42e2.css.map": "/static/css/main.5b1c42e2.css.map",
+    "main.7d858009.js.map": "/static/js/main.7d858009.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec43db14.css",
+    "static/css/main.5b1c42e2.css",
     "static/js/main.7d858009.js"
   ]
 }
