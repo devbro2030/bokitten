@@ -51,7 +51,6 @@ function App() {
               :<button onClick={handleCopy('A1T8p9qDihS5fZRNCSPgW61zqcPnuYeEb4m6X8b6pump')}><ContentCopyIcon/></button>
             }
             </p>
-          <p className="intro" id='ca'>CA: to be updated soon</p>
         </div>
         <div className="heading" style={{marginBottom:'10px',marginTop:'20px'}} ref={galleryRef}>Bo's gallery:</div>
         <div className='sliderBox'>
