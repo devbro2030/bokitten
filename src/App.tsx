@@ -94,7 +94,7 @@ function App() {
         </section>
       </main>
       <footer className='footer' ref={linksRef}>
-        <a href="#" target='_blank'><TelegramIcon style={{color:'white',width:'100px'}}/></a>
+        <a href="https://t.me/+8T6op8P65D9lZWE1" target='_blank'><TelegramIcon style={{color:'white',width:'100px'}}/></a>
         <a href="https://x.com/bokittensol" target='_blank'><XIcon style={{color:'white',width:'100px'}}/></a>
       </footer>
     </div>
