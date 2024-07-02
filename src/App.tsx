@@ -44,7 +44,7 @@ function App() {
         <p className="intro">Hello, I'm Little Bo, <br/> the cutest kitten on <span>Solana</span> .</p>
         <MainImage/>
         <div className='caBtn' ref={caRef}>
-          <p className="intro" id='ca'>CA: A1T8p9qDihS5fZRNCSPgW61zqcPnuYeEb4m6X8b6pump
+          <p className="intro" id='ca' style={{fontSize:'16px'}}>CA: A1T8p9qDihS5fZRNCSPgW61zqcPnuYeEb4m6X8b6pump  
             {
               copyDone
               ? <DoneIcon/>
