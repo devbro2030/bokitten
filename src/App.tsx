@@ -44,13 +44,13 @@ function App() {
         <p className="intro">Hello, I'm Little Bo, <br/> the cutest kitten on <span>Solana</span> .</p>
         <MainImage/>
         <div className='caBtn' ref={caRef}>
-          {/* <p className="intro" id='ca'>CA: xxxxxxxxxxxxxxxxxxxx 
+          <p className="intro" id='ca'>CA: A1T8p9qDihS5fZRNCSPgW61zqcPnuYeEb4m6X8b6pump
             {
               copyDone
               ? <DoneIcon/>
-              :<button onClick={handleCopy('xxxxxxxxxxxxxxxxxxxx')}><ContentCopyIcon/></button>
+              :<button onClick={handleCopy('A1T8p9qDihS5fZRNCSPgW61zqcPnuYeEb4m6X8b6pump')}><ContentCopyIcon/></button>
             }
-            </p> */}
+            </p>
           <p className="intro" id='ca'>CA: to be updated soon</p>
         </div>
         <div className="heading" style={{marginBottom:'10px',marginTop:'20px'}} ref={galleryRef}>Bo's gallery:</div>
